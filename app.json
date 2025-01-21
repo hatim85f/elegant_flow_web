@@ -2,6 +2,7 @@
   "expo": {
     "name": "elegant_web3",
     "slug": "elegant_web3",
+    "scheme": "elegantflow",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,8 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "output": "server",
+      "output": "single",
       "bundler": "metro"
-    }
+    },
+    "plugins": ["expo-font", "expo-router"]
   }
 }
